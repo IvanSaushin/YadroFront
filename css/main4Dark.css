@@ -11,15 +11,6 @@
     #67a6cf голубой
 */
 
-
-*{
-    padding: 0;
-    margin: 0;
-    text-decoration: none;
-    list-style: none;
-    box-sizing: border-box;
-}
-
 .body {
     font-family: Antipasto Pro, sans-serif;
     font-weight: 400;
@@ -28,29 +19,22 @@
     background: #25241f;
 }
 
-/* .bodyContainer {
-    font-family: Antipasto Pro, sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    font-family: cursive;
-    background: #25241f;
-} */
-
 .hd1 {
-    height: 705px;
-    width: 100%;
+    /* margin-top: 140px; */
+    /* margin-bottom: 60px; */
+    /* margin-bottom: 5em; */
+    /* height: 40em; */
     color: #f8f9e9;
 }
 
-.navb {
-    height: 80px;
-    width: 100%;
-    margin: 0 auto;
+.hd1_row1 {
+    margin: 10em 0em 6em 10vw;
 }
 
 label.logo {
     /* color: #b98667; */
-    font-size: 35px;
+    color: #049CE4;
+    font-size: 3em;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -68,25 +52,24 @@ nav ul li {
     margin: 0 5px;
 }
 
-nav ul li a {
-    color: #f8f9e9;
-    font-size: 17px;
-    text-transform: uppercase;
-    padding: 5px 10px;
-    border-radius: 10px;
-    text-decoration: none;
-}
-
 .nav-link {
-    /* color: #b98667; */
-    font-size: 17px;
+    color: #f8f9e9;
+    font-size: 1.5em;
     text-transform: uppercase;
-    padding: 5px 10px;
+    /* padding: 5px 15px; */
+    margin: 0 1em;
     border-radius: 10px;
+    /* text-decoration: none; */
+}
+
+.nav-link:hover {
+    color: #049CE4;
+    transition: 0.5s;
     text-decoration: none;
 }
 
-a.active,a:hover {
+
+a.active, a:hover {
     /* color: #e26a1f; */
     color: #049CE4;
     /* color: #c6151b; */
@@ -120,6 +103,22 @@ a.active,a:hover {
     /* background: #169d11; */
 }
 
+
+a {
+    text-decoration: none;
+    color: #f8f9e9;
+}
+
+
+#link4items {
+    list-style-type: none;
+}
+
+#link4items:hover {
+    color: #049CE4;
+    transition: 0.5s;
+}
+
 .block1__text3 {
     margin-top: 30px;
     width: 400px;
@@ -133,7 +132,7 @@ a.active,a:hover {
 .block1__text3__a {
     font-size: 45px;
     /* color: #e4bc98; */
-    
+
 
     padding: 22px 10px;
     border-radius: 10px;
@@ -156,7 +155,7 @@ a.active,a:hover {
     display: inline-block;
 }
 
-.block1__text2 h6{
+.block1__text2 h6 {
     margin-left: 30px;
     width: 600px;
     padding: 20px 0;
@@ -186,13 +185,18 @@ a.active,a:hover {
 }
 
 
+.asd2 {
+    margin-bottom: 60px;
+    width: 80%;
+}
 
 .card-img-overlay {
     position: absolute;
 }
+
 .card-title2 {
     /* margin-top: 115px;  */
-    margin-top: 93%; 
+    margin-top: 93%;
     font-size: 1.5em;
 }
 
@@ -204,23 +208,28 @@ a.active,a:hover {
 .card-img-top {
     overflow: hidden;
     opacity: 1;
-    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
-	width: 100%;
-	height: auto;
+    transition: opacity 124ms linear, transform 124ms linear;
+    /* Плавное изменение прозрачности и увеличения */
+    width: 100%;
+    height: auto;
     display: block;
 }
 
 .card-img-top:hover {
-    opacity: 0.9; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
-    transform: scale(1.05); /* Увеличение картинки */
+    opacity: 0.9;
+    /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.05);
+    /* Увеличение картинки */
 }
 
 .tt {
     overflow: hidden;
     opacity: 0.7;
-    transition: opacity 124ms linear, transform 124ms linear;  /* Плавное изменение прозрачности и увеличения */
-	width: 100%;
-	height: auto;
+    transition: opacity 124ms linear, transform 124ms linear;
+    /* Плавное изменение прозрачности и увеличения */
+    width: 100%;
+    margin: 0 auto;
+    height: auto;
     display: block;
 
 
@@ -228,34 +237,32 @@ a.active,a:hover {
 
 
 .tt:hover {
-    opacity: 1; /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
-    transform: scale(1.05); /* Увеличение картинки */
+    opacity: 1;
+    /* Высветляем картинку, но она становится темнее, так как под ней черный фон */
+    transform: scale(1.05);
+    /* Увеличение картинки */
 }
 
-.tt:hover .card-title2{
+.tt:hover .card-title2 {
     color: #e93740;
     transition: 1s;
 }
-
-
-/*
-#012E4A     #031544
-#036280     #1C3CA1     cd494f
-#378BA4     #5B4C97
-#81BECE     #BD6267
-#E8EDE7
-*/
 
 .wrapWindthAll {
     width: 100%;
 }
 
-.asd2 {
-    margin-bottom: 60px;
-}
-
 .asd3 {
-    background: #d6c3a5;
+    /* background: #d8dddf; */
+    /* background: #c6aa7d; */
+
+    /* background-image: linear-gradient(#25241f, #5aafda); */
+
+    /* background: #cadee8; */
+    /* background: #ded7cc; */
+
+    /* background: #d6c3a5; */
+    
     /* background: #25241f; */
     height: 1000px;
     width: 100%;
@@ -268,8 +275,9 @@ a.active,a:hover {
 } */
 .last {
     background: #25241f;
-    height: 1000px;
-    color: #d6c3a5;
+    height: 900px;
+    /* color: #d6c3a5; */
+    color: #f1f3de;
 }
 
 .last_row1 {
@@ -277,12 +285,12 @@ a.active,a:hover {
 }
 
 .last_row1 h1 {
-    font-size: 6em;
+    font-size: 5.5em;
     margin: 50px 0;
 }
 
 .last_row1 h3 {
-    margin-top: 100px;
+    margin-top: 80px;
 }
 
 .last_row1_btn {
@@ -292,13 +300,13 @@ a.active,a:hover {
 }
 
 .last_row1_address {
-    font-size: 3em;
+    font-size: 2.3em;
     margin-top: 30px;
     margin-bottom: 45px;
 }
 
 .last_row1_number {
-    font-size: 3em;
+    font-size: 2.5em;
     margin-top: 20px;
     /* margin-bottom: 20px; */
 }
@@ -306,12 +314,12 @@ a.active,a:hover {
 .last_row1_icons {
     /* padding-top: 40px; */
     font-size: 3em;
-    color: #d6c3a5 !important;
+    color: #049CE4 !important;
     margin: 10px 0;
 }
 
 .iconsNoBtsp {
-    color: #d6c3a5 !important;
+    color: #049CE4 !important;
     padding: 0 5px;
 }
 
@@ -336,4 +344,32 @@ a.active,a:hover {
     --bs-btn-active-color: var(--bs-btn-hover-color);
     --bs-btn-active-bg: #{shade-color($bd-violet, 20%)};
     --bs-btn-active-border-color: #{shade-color($bd-violet, 20%)}; */
-  }
+}
+
+.feedback_form {
+    width: 45%; 
+    font-size: 1.1em;
+    margin-left: 5%;    
+}
+
+.feedback_form h1 {
+    font-size: 3.2vw;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+
+.mb-4{
+    /* font-size: 1.5em; */
+}
+
+.agree_form {
+    display: block;
+    margin-top: 20px;
+    color: #049CE4;
+}
+
+.form-control {
+    /* border-radius: 4%; */
+    font-size: 1.5em;
+
+}
